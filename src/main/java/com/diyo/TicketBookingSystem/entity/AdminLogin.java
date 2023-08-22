@@ -36,6 +36,7 @@ public class AdminLogin {
     private String password;
 
     //@Min(value=6, message="Minimum six digit.")
+    //password, pincode is hidden
     @Column (name="pin_code")
     private Integer pinCode;
 }
